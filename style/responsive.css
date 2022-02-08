@@ -1,0 +1,77 @@
+@media screen and (max-width:700px) {	
+	header .container-menu{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	padding-bottom: 10px;
+	}
+
+	main .titulo{
+		font-size: 70px;
+		}
+
+	main .subtitulo{
+		font-size: 29px;
+		}
+
+		main .descricao{
+			font-size: 14px;
+			}
+	
+		main .descricao2{
+			font-size: 17px;
+			}
+		main .pipe{
+				font-size: 23px;
+			}
+	
+		main .brunoflix{
+				font-size:20px;
+			}
+
+	.logo{
+		margin-left: 0px;
+	}
+
+	.botao{
+		margin-top: 6px;
+		width: 230px;
+	}
+}
+
+@media  screen and (max-width:490px) {
+	main .titulo{
+	font-size: 60px;
+	}
+
+	main .subtitulo{
+		margin-top: -20px;
+		font-size: 25px;
+		}
+	}
+
+@media  screen and (max-width:440px) {
+	main .container{
+		margin-left: 10%;
+	}
+}
+
+@media  screen and (max-width:360px) {
+
+	main .titulo{
+		font-size: 49px;
+		}
+
+	main .subtitulo{
+		margin-top: -18px;
+		font-size: 20px;
+		}
+
+		main .descricao{
+		font-size: 12px;
+		}
+	
+		main .descricao2{
+		font-size: 15px;
+		}
+	}
