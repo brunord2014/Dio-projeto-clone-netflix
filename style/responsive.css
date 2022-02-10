@@ -1,77 +1,151 @@
-@media screen and (max-width:700px) {	
+/*Menu responsivo a partir do 700px*/
+@media screen and (min-width: 360px) and (max-width:700px) {	
 	header .container-menu{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+		padding-bottom: 10px;
+	}
+
+	nav{
+		margin: 0px 2px 0px 2px;
+	}
+
+	nav a{
+		margin: 0px 7px 0px 7px;
+	}
+}
+
+/*Menu responsivo a partir do 360px*/
+@media screen and (min-width:50px) and (max-width:360px){
+	header .container-menu{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+		padding-bottom: 5px;
+	}
+
+	nav{
+		margin: 0px 2px 0px 2px;
+	}
+
+	nav a{
+		font-size: 14px;
+		margin: 0px 2px 0px 2px;
+	}
+}
+
+@media screen and (min-width: 50px) and (max-width:950px){	
+
+	.margem-card-imagem{
+		z-index: 0;
+		margin-top: -55px;
+	}
+
+	.card-titulo{
+		font-size: 2.5rem;
+		width: 100%;
+	}
+
+	.card-texto{
+		font-size: 1.25rem;
+		width: 100%;
+	}
+
+	.container-card-itens{
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-items: center;
-	padding-bottom: 10px;
+	text-align: center;
 	}
 
-	main .titulo{
-		font-size: 70px;
-		}
+	.inverter-posicao1{
+		margin-bottom: -20px;
+		order: 1;
+	}
+	.inverter-posicao2{
+		order:0;
+	}
 
-	main .subtitulo{
-		font-size: 29px;
-		}
+	.card-descricao{
+		z-index: 1;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+}
 
-		main .descricao{
-			font-size: 14px;
-			}
-	
-		main .descricao2{
-			font-size: 17px;
-			}
-		main .pipe{
-				font-size: 23px;
-			}
-	
-		main .brunoflix{
-				font-size:20px;
-			}
+/*Responsividade títulos filme principal*/
+@media screen and (max-width: 600px){
+	.titulo{
+		font-size: 60px;
+	}
 
-	.logo{
-		margin-left: 0px;
+	.subtitulo{
+		font-size: 24.8px;
+		margin-top: -24px;
+	}
+
+	.descricao1{
+		font-size: 13px;
+	}
+	.descricao2{
+		font-size: 17px;
+		margin-top: -18px;
+	}
+
+	.pipe{
+		color: var(--vermelho);
+		font-size: 20px;
+	}
+
+	.brunoflix{
+		color: var(--vermelho);
+		font-size: 18px;
 	}
 
 	.botao{
-		margin-top: 6px;
-		width: 230px;
-	}
-}
-
-@media  screen and (max-width:490px) {
-	main .titulo{
-	font-size: 60px;
-	}
-
-	main .subtitulo{
-		margin-top: -20px;
-		font-size: 25px;
-		}
-	}
-
-@media  screen and (max-width:440px) {
-	main .container{
-		margin-left: 10%;
-	}
-}
-
-@media  screen and (max-width:360px) {
-
-	main .titulo{
-		font-size: 49px;
-		}
-
-	main .subtitulo{
-		margin-top: -18px;
-		font-size: 20px;
-		}
-
-		main .descricao{
+		padding: 17px 17px;
+		width: 180px;
 		font-size: 12px;
-		}
-	
-		main .descricao2{
-		font-size: 15px;
-		}
 	}
+
+}
+
+/*Responsividade botões*/
+@media screen and (max-width: 500px){
+	.container-botoes{
+		margin: 0px 10% 0px 10%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.botoes{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.botao{
+		margin-top: 8px;
+	}
+}
+
+@media screen and (max-width: 430px){
+	.container-filme-principal{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container-informacoes-filme{
+		padding: 0px 10% 0px 10%;
+		margin: 0px;
+	}
+}
