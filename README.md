@@ -5,5 +5,5 @@
 <a href="https://brunorodsilva.github.io/dio-projeto-clone-netflix/">Ver projeto na web</a> </br>
 
 <div align="center">
-<img src="" width="650px" height="450px"/>
+<img src="https://i.imgur.com/DLQEvSN.gif" width="650px">
 </div>
